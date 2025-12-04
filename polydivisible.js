@@ -144,6 +144,8 @@ function getPolydivisible(n, b) {
     if (currentLevel.length === 0) break;
   }
   
+  // If we couldn't generate enough polydivisible numbers, return empty string
+  // This shouldn't happen in practice for reasonable values of n
   return allPolydivisible[index] || '';
 }
 
