@@ -1,0 +1,12 @@
+{
+  "name": "kata-problems",
+  "version": "1.0.0",
+  "description": "Codewars project solutions",
+  "main": "polydivisible.js",
+  "scripts": {
+    "test": "node polydivisible.test.js"
+  },
+  "keywords": ["kata", "codewars", "polydivisible"],
+  "author": "",
+  "license": "ISC"
+}
